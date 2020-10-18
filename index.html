@@ -44,7 +44,7 @@
     <script>
 
       // Create an array of times in case you want to expand the time selection
-      var hoursArr = ['9:00 am', '10:00 am', '11:00 am', '12:00 pm', '1:00 pm', '2:00 pm', '3:00 pm', '4:00 pm', '5:00 pm', '6:00 pm', '7:00 pm', '8:00 pm', '9:00 pm' ]
+      var hoursArr = ['9:00 am', '10:00 am', '11:00 am', '12:00 pm', '1:00 pm', '2:00 pm', '3:00 pm', '4:00 pm', '5:00 pm' ]
       var pCheck = 0;
       // Loop through the array to create a row for each timeslot
       for (var i=0; i < hoursArr.length; i++) {
@@ -78,9 +78,9 @@
         // Log them to see if dates are accurate
         //console.log(now);
         //console.log(timeSlot._i);
-        console.log('B'+ Date.parse(timeSlotBottom))
+        console.log('B: '+ Date.parse(timeSlotBottom))
         // console.log(Date.parse(timeSlotBottom._d));
-        console.log('T' + Date.parse(timeSlotTop));
+        console.log('T: ' + Date.parse(timeSlotTop));
         // console.log(Date.parse(now));
         console.log(Date.parse(timeSlot._i));
         // console.log(Date.parse(timeSlot._i));
